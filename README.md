@@ -1,18 +1,14 @@
-my readme file   # E-Voting System Application
+ # E-Voting System Application
 
 ## Overview
 
 The **E-Voting System** is a console-based electronic voting application designed to manage secure and transparent elections. The system allows administrators to manage elections, candidates, voters, and voting stations, while enabling voters to securely cast votes.
 
-The application follows modern **software engineering principles**, including Object-Oriented Design (OOd), Clean Code practices, and Separation of Concerns (SoC) to ensure maintainability, scalability, and readability.
-
----
+The application follows modern **software engineering principles**, including Object-Oriented Design (OOd), Clean Code practices, and Separation of Concerns (SoC) to ensure maintainability, scalability, and readability
 
 # System Architecture
 
 The application follows a **layered architecture** that separates responsibilities into distinct modules.
-
-```
 Application Layer
      │
      ▼
@@ -39,12 +35,7 @@ Responsibilities:
 * Calling services to perform operations
 
 Main Class:
-
-```
 EVotingApp
-```
-
----
 
 ## 2. Service Layer
 
@@ -70,8 +61,6 @@ Responsibilities:
 
 This layer ensures that **business rules are separated from the user interface**.
 
----
-
 ## 3. Model Layer
 
 The model layer defines the **data structures and entities** used in the system.
@@ -94,8 +83,6 @@ Responsibilities:
 * Provide data validation
 * Convert objects to dictionaries for storage
 
----
-
 ## 4. UI Layer
 
 The UI module handles **all user interactions**.
@@ -117,8 +104,6 @@ Examples of UI utilities:
 
 This keeps **presentation logic separate from business logic**.
 
----
-
 ## 5. Data Management Layer
 
 The system uses a **DataManager** class for data persistence.
@@ -139,8 +124,6 @@ Stored data includes:
 * administrators
 * audit logs
 
----
-
 # Object-Oriented Design
 
 The application implements key OOP principles.
@@ -150,45 +133,30 @@ The application implements key OOP principles.
 Classes encapsulate both data and behavior.
 
 Example:
-
-```
 class EVotingApp
-```
 
-This class manages the application's workflow and system state.
-
----
+This class manages the application's workflow and system state
 
 ## Abstraction
 
 Complex operations are abstracted through service classes.
 
 Example:
-
-```
 AuthService.login_admin()
 CandidateService.create_candidate()
 PollService.create_poll()
-```
 
 This hides implementation details from the main application.
-
----
 
 ## Modularity
 
 The application is divided into modules:
-
-```
 models/
 services/
 ui/
 main.py
-```
 
-This improves maintainability and readability.
-
----
+This improves maintainability and readability
 
 # Clean Code Principles
 
@@ -202,9 +170,7 @@ Examples:
 * `view_all_voters()`
 * `assign_candidates_to_poll()`
 
-These names clearly describe their functionality.
-
----
+These names clearly describe their functionality
 
 ### Single Responsibility Principle
 
@@ -214,9 +180,7 @@ Examples:
 
 * `create_poll()`
 * `update_station()`
-* `verify_voter()`
-
----
+* `verify_voter()
 
 ### Code Readability
 
@@ -229,8 +193,6 @@ The code uses:
 
 This improves readability and maintainability.
 
----
-
 # Security Features
 
 The system implements several security mechanisms.
@@ -239,11 +201,7 @@ The system implements several security mechanisms.
 
 Passwords are stored using **hashed values**.
 
-```
 AuthService.hash_password()
-```
-
----
 
 ### Role-Based Access Control
 
@@ -252,9 +210,7 @@ Users are divided into roles:
 * **Admin**
 * **Voter**
 
-Each role has different system permissions.
-
----
+Each role has different system permissions
 
 ### Audit Logging
 
@@ -269,8 +225,6 @@ Examples:
 
 This improves system transparency and accountability.
 
----
-
 # Key Features
 
 ### Admin Features
@@ -284,8 +238,6 @@ This improves system transparency and accountability.
 * View election results
 * View system statistics
 * View audit logs
-
----
 
 ### Voter Features
 
