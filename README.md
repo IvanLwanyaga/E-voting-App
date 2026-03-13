@@ -4,7 +4,7 @@ my readme file   # E-Voting System Application
 
 The **E-Voting System** is a console-based electronic voting application designed to manage secure and transparent elections. The system allows administrators to manage elections, candidates, voters, and voting stations, while enabling voters to securely cast votes.
 
-The application follows modern **software engineering principles**, including Object-Oriented Programming (OOP), Clean Code practices, and Separation of Concerns (SoC) to ensure maintainability, scalability, and readability.
+The application follows modern **software engineering principles**, including Object-Oriented Design (OOd), Clean Code practices, and Separation of Concerns (SoC) to ensure maintainability, scalability, and readability.
 
 ---
 
@@ -323,5 +323,5 @@ Possible future improvements include:
 
 LWANYAGA IVAN
 TUMUSIME JULIUS
-MUCHUNGUZI
-JOHNPAUL
+MUCHUNGUZI GODFREY
+JOHN PAUL
