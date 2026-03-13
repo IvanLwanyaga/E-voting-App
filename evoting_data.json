@@ -1,0 +1,184 @@
+{
+  "candidates": {},
+  "candidate_id_counter": 1,
+  "voting_stations": {
+    "1": {
+      "id": 1,
+      "name": "Mirembe",
+      "location": "Kasanda",
+      "region": "Kasanda",
+      "capacity": 543,
+      "registered_voters": 0,
+      "supervisor": "Lwanyaga ivan",
+      "contact": "0751367938",
+      "opening_time": "07:00",
+      "closing_time": "04:00",
+      "is_active": true,
+      "created_at": "2026-03-12 11:13:30.034437",
+      "created_by": "admin"
+    }
+  },
+  "station_id_counter": 2,
+  "polls": {
+    "1": {
+      "id": 1,
+      "title": "general",
+      "description": "position",
+      "election_type": "general",
+      "start_date": "2026-01-15",
+      "end_date": "2026-01-22",
+      "positions": [
+        {
+          "position_id": 1,
+          "position_title": "president",
+          "candidate_ids": [],
+          "max_winners": 1
+        }
+      ],
+      "station_ids": [
+        1
+      ],
+      "status": "draft",
+      "total_votes_cast": 0,
+      "created_at": "2026-03-12 11:25:38.250749",
+      "created_by": "admin"
+    }
+  },
+  "poll_id_counter": 2,
+  "positions": {
+    "1": {
+      "id": 1,
+      "title": "president",
+      "description": "position",
+      "level": "National",
+      "max_winners": 1,
+      "min_candidate_age": 25,
+      "is_active": true,
+      "created_at": "2026-03-12 11:24:01.562684",
+      "created_by": "admin"
+    }
+  },
+  "position_id_counter": 2,
+  "voters": {
+    "1": {
+      "id": 1,
+      "full_name": "TUMUSIIME JULIUS",
+      "national_id": "CM123456789",
+      "date_of_birth": "2000-02-01",
+      "age": 26,
+      "gender": "M",
+      "address": "MUKONO",
+      "phone": "0778896862",
+      "email": "tumusiimej@gmail.com",
+      "password": "608e0dea61d83739facde0f3ad30367879d12935dd69d4bb5857b0192d370fa4",
+      "voter_card_number": "85KFRC2N5O46",
+      "station_id": 1,
+      "is_verified": false,
+      "is_active": true,
+      "has_voted_in": [],
+      "registered_at": "2026-03-12 11:18:08.298820",
+      "role": "voter"
+    }
+  },
+  "voter_id_counter": 2,
+  "admins": {
+    "1": {
+      "id": 1,
+      "username": "admin",
+      "password": "240be518fabd2724ddb6f04eeb1da5967448d7e831c08c8fa822809f74c720a9",
+      "full_name": "System Administrator",
+      "email": "admin@evote.com",
+      "role": "super_admin",
+      "created_at": "2026-03-12 10:46:01.127128",
+      "is_active": true
+    }
+  },
+  "admin_id_counter": 2,
+  "votes": [],
+  "audit_log": [
+    {
+      "timestamp": "2026-03-12 10:49:51.026911",
+      "action": "LOGIN",
+      "user": "admin",
+      "details": "Admin login successful"
+    },
+    {
+      "timestamp": "2026-03-12 10:50:51.331763",
+      "action": "LOGOUT",
+      "user": "admin",
+      "details": "Admin logged out"
+    },
+    {
+      "timestamp": "2026-03-12 10:52:15.510972",
+      "action": "LOGIN_FAILED",
+      "user": "2443455546646",
+      "details": "Invalid voter credentials"
+    },
+    {
+      "timestamp": "2026-03-12 11:09:42.537950",
+      "action": "LOGIN_FAILED",
+      "user": "Admin",
+      "details": "Invalid admin credentials"
+    },
+    {
+      "timestamp": "2026-03-12 11:11:11.989390",
+      "action": "LOGIN",
+      "user": "admin",
+      "details": "Admin login successful"
+    },
+    {
+      "timestamp": "2026-03-12 11:13:30.034523",
+      "action": "CREATE_STATION",
+      "user": "admin",
+      "details": "Created station: Mirembe (ID: 1)"
+    },
+    {
+      "timestamp": "2026-03-12 11:14:58.525378",
+      "action": "LOGOUT",
+      "user": "admin",
+      "details": "Admin logged out"
+    },
+    {
+      "timestamp": "2026-03-12 11:18:08.298847",
+      "action": "REGISTER",
+      "user": "TUMUSIIME JULIUS",
+      "details": "New voter registered with card: 85KFRC2N5O46"
+    },
+    {
+      "timestamp": "2026-03-12 11:19:35.379325",
+      "action": "LOGIN",
+      "user": "admin",
+      "details": "Admin login successful"
+    },
+    {
+      "timestamp": "2026-03-12 11:24:01.563249",
+      "action": "CREATE_POSITION",
+      "user": "admin",
+      "details": "Created position: president (ID: 1)"
+    },
+    {
+      "timestamp": "2026-03-12 11:25:38.250781",
+      "action": "CREATE_POLL",
+      "user": "admin",
+      "details": "Created poll: general (ID: 1)"
+    },
+    {
+      "timestamp": "2026-03-12 11:25:54.500963",
+      "action": "LOGOUT",
+      "user": "admin",
+      "details": "Admin logged out"
+    },
+    {
+      "timestamp": "2026-03-12 12:17:10.681782",
+      "action": "LOGIN",
+      "user": "admin",
+      "details": "Admin login successful"
+    },
+    {
+      "timestamp": "2026-03-12 13:56:08.341388",
+      "action": "LOGOUT",
+      "user": "admin",
+      "details": "Admin logged out"
+    }
+  ]
+}
